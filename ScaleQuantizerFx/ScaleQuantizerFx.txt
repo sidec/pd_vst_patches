@@ -1,0 +1,11 @@
+param -name Scale -min 0 -max 32 -nsteps 33 -auto true;
+param -name Rotate -min 0 -max 11 -nsteps 12 -auto true;
+midionly true;
+midiin true;
+midiout true;
+iolayout 1 1;
+code qMid;
+type effect;
+description Infos.txt;
+autoreload true;
+compatibility 1.0.6;

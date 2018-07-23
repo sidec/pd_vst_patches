@@ -1,0 +1,6 @@
++binaural~ is a filter which places a sound at a specific
+position around the listener's head. It does this by using
+filters which simulate the filtering effect of the head and
+outer ear for sounds at all angles. The filters in
++binaural~ are optimized for headphones and are only for 0
+degree elevation at a 44100 sample rate.
