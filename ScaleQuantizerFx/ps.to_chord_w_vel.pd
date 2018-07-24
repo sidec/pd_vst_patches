@@ -7,7 +7,7 @@
 #X obj 299 389 f;
 #X obj 333 387 + 1;
 #X msg 299 413 get \$1 1;
-#X obj 330 144 list;
+#X obj 300 165 list;
 #X obj 248 544 +;
 #X obj 205 119 t b f;
 #X obj 454 63 loadbang;

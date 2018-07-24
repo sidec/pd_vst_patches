@@ -1,3 +1,5 @@
 #N canvas 359 302 450 300 12;
-#X obj 93 81 text define CHORDS_V;
-#X obj 92 116 text define CHORDS_K;
+#X obj 93 81 text define -k CHORDS_V;
+#A set;
+#X obj 92 116 text define -k CHORDS_K;
+#A set;
