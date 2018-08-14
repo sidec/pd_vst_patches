@@ -1,5 +1,14 @@
 param -name Scale -min 0 -max 32 -nsteps 33 -auto true;
 param -name Rotate -min 0 -max 11 -nsteps 12 -auto true;
+param -name Reset_Scale -min 0 -max 1 -nsteps 2;
+param -name Chord_On -min 0 -max 1 -nsteps 2 -auto true;
+param -name Chord_Name -min 0 -max 15 -nsteps 16 -auto true;
+param -name First -min -2 -max 2 -nsteps 5 -auto true;
+param -name Second -min -2 -max 2 -nsteps 5 -auto true;
+param -name Third -min -2 -max 2 -nsteps 5 -auto true;
+param -name Fourth -min -2 -max 2 -nsteps 5 -auto true;
+param -name Fith -min -2 -max 2 -nsteps 5 -auto true;
+param -name Sixth -min -2 -max 2 -nsteps 5 -auto true;
 midionly true;
 midiin true;
 midiout true;

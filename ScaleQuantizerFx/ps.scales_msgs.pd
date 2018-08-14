@@ -34,6 +34,7 @@
 #X msg 750 356 iwato;
 #X msg 95 125 melmindesc;
 #X obj 253 493 outlet;
+#X obj 517 12 loadbang;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 34 0;
@@ -68,3 +69,4 @@
 #X connect 31 0 2 0;
 #X connect 32 0 2 0;
 #X connect 33 0 2 0;
+#X connect 35 0 6 0;
